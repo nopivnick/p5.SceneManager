@@ -1,0 +1,30 @@
+{
+  "name": "p5.scenemanager",
+  "version": "1.0.0",
+  "description": "Helps you create sketches with multiple states / scenes",
+  "main": "lib/scenemanager.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfdeveloper/p5.SceneManager.git"
+  },
+  "keywords": [
+    "p5js",
+    "scenes",
+    "p5js-lib"
+  ],
+  "author": "Marian Veteanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfdeveloper/p5.SceneManager/issues"
+  },
+  "homepage": "https://github.com/mfdeveloper/p5.SceneManager#readme",
+  "dependencies": {
+    "p5": "^0.5.6"
+  }
+}
