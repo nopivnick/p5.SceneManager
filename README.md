@@ -63,6 +63,30 @@ function Game()
 
 The SceneManager will provide you with methods necesary to switch to the appropriate scene and route the main p5.js events to your defined events.
 
+## Draw something in all scenes
+
+if you wish, you can add a event to execute after each
+`draw()` of all scenes. 
+
+To do this, in your `.js` file that contains `setup()`
+to load the main scene (generally `sketch.js`), add
+a **`drawScene()`** global event, like this:
+
+```js
+function setup() {
+  ...
+
+  let mgr = new SceneManager();
+  mgr.wire();
+  mgr.showScene(MainScene);
+}
+
+function drawScene() {
+    // Draw something in the canvas,
+    // after draw() of each scene
+}
+```
+
 Source Code
 -----------
 
